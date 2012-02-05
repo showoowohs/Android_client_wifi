@@ -3,5 +3,10 @@
 
     <string name="hello">Hello World, Android_client_wifiActivity!</string>
     <string name="app_name">Android_client_wifi</string>
+    <string name="longitude">經度(Longitude)：</string>
+    <string name="latitude">緯度(Latitude)：</string>
+    <string name="err_address">地址不存在</string>
+    <string name="err_location">無法取得Location</string>
+    <string name="my_location">目前所在地址：</string>
 
 </resources>

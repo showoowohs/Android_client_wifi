@@ -24,6 +24,11 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f040001;
+        public static final int err_address=0x7f040004;
+        public static final int err_location=0x7f040005;
         public static final int hello=0x7f040000;
+        public static final int latitude=0x7f040003;
+        public static final int longitude=0x7f040002;
+        public static final int my_location=0x7f040006;
     }
 }

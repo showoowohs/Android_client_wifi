@@ -17,6 +17,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class get_ip extends Activity {
 	private EditText ed;
@@ -43,10 +44,11 @@ public class get_ip extends Activity {
     public boolean onKeyUp(int keyCode, KeyEvent event) {
         System.out.println("onKeyUp  keyCode "+keyCode +"   KeyEvent  " +event);
         if(keyCode==4 ){
-        	finish();
-//                Toast.makeText(process_loading.this, "下載中!請稍後", Toast.LENGTH_SHORT).show();
+//        	finish();
+        	Toast.makeText(this, "請先輸入IP", Toast.LENGTH_SHORT).show();
         }
             
         return true;  
     }
+    
 }

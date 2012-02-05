@@ -28,4 +28,11 @@
             android:text="send" />
     </LinearLayout>
 
+	<Button
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    
+	    android:onClick="Button_Get_GPS"
+	    android:text="Get GPS" />
+
 </LinearLayout>
